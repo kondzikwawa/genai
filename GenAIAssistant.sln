@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Application", "Application", "{5D223B48-B411-4F6E-BE76-689372613EF8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GenAIAssistant.Application.Service", "src\Application\GenAIAssistant.Application.Service\GenAIAssistant.Application.Service.csproj", "{67D8CB6C-7096-4849-9FB7-5E5FD709C44E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UI", "UI", "{5C231446-447F-494A-955C-EF0E1E5FA7A0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{B57A0EEE-9EB5-4F81-88BB-6B794FBC08BE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GenAIAssistant.Domain", "src\Domain\GenAIAssistant.Domain\GenAIAssistant.Domain.csproj", "{C9545247-0A47-4D48-9C35-00CC7CCC0FB1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenAIAssistant.Application.Orchestrator", "src\Application\GenAIAssistant.Application.Orchestrator\GenAIAssistant.Application.Orchestrator.csproj", "{B3D92DD0-1CBA-4F54-8B81-654DD6585A68}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenAIAssistant.UI.Console", "src\UI\GenAIAssistant.UI.Console\GenAIAssistant.UI.Console.csproj", "{2F3342B1-FA0F-423A-9472-DA83BEC53301}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{67D8CB6C-7096-4849-9FB7-5E5FD709C44E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{67D8CB6C-7096-4849-9FB7-5E5FD709C44E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{67D8CB6C-7096-4849-9FB7-5E5FD709C44E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{67D8CB6C-7096-4849-9FB7-5E5FD709C44E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C9545247-0A47-4D48-9C35-00CC7CCC0FB1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C9545247-0A47-4D48-9C35-00CC7CCC0FB1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C9545247-0A47-4D48-9C35-00CC7CCC0FB1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C9545247-0A47-4D48-9C35-00CC7CCC0FB1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B3D92DD0-1CBA-4F54-8B81-654DD6585A68}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B3D92DD0-1CBA-4F54-8B81-654DD6585A68}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B3D92DD0-1CBA-4F54-8B81-654DD6585A68}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B3D92DD0-1CBA-4F54-8B81-654DD6585A68}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2F3342B1-FA0F-423A-9472-DA83BEC53301}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F3342B1-FA0F-423A-9472-DA83BEC53301}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F3342B1-FA0F-423A-9472-DA83BEC53301}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F3342B1-FA0F-423A-9472-DA83BEC53301}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{67D8CB6C-7096-4849-9FB7-5E5FD709C44E} = {5D223B48-B411-4F6E-BE76-689372613EF8}
+		{C9545247-0A47-4D48-9C35-00CC7CCC0FB1} = {B57A0EEE-9EB5-4F81-88BB-6B794FBC08BE}
+		{B3D92DD0-1CBA-4F54-8B81-654DD6585A68} = {5D223B48-B411-4F6E-BE76-689372613EF8}
+		{2F3342B1-FA0F-423A-9472-DA83BEC53301} = {5C231446-447F-494A-955C-EF0E1E5FA7A0}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A98F146D-ACD9-4A91-8B38-E433E4512C49}
+	EndGlobalSection
+EndGlobal
